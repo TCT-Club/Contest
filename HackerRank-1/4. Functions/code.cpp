@@ -4,9 +4,8 @@
 using namespace std;
 
 int max_of_four(int a, int b, int c, int d) {
-    int max = INT_MIN;
-    if(a > max) max = a;
-    if(c > max) max = b;
+    int max = a;
+    if(b > max) max = b;
     if(c > max) max = c;
     if(d > max) max = d;
     return max;
