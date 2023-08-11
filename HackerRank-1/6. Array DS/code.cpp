@@ -12,6 +12,7 @@ vector<string> split(const string &);
  * The function accepts INTEGER_ARRAY a as parameter.
  */
 
+// 1. Approach start and end swap
 vector<int> reverseArray(vector<int> arr) {
     
     int start = 0;
@@ -23,6 +24,8 @@ vector<int> reverseArray(vector<int> arr) {
     
     return arr;
 }
+
+// 2 Copy the whole array to another one from the end
 
 int main()
 {
