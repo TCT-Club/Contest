@@ -1,5 +1,21 @@
 #include <stdio.h>
 
+/* ANOTHER APPROACH USING ABS FUNCTION
+
+#include <stdlib.h>
+void update(int *a,int *b) {
+    // Complete this function
+    int tempA = *a;
+    int tempB = *b;
+    
+    *a = tempA + tempB;
+    *b = abs(tempA - tempB);
+    
+}
+
+*/
+
+
 void update(int *a,int *b) {
     // Complete this function
     int temp = *a;
